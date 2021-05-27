@@ -20,7 +20,7 @@ public class secureUrl {
 		String words[] = res.split(":");
 //		storing the particular word in another string variable
 		String word = words[0];
-		if(word.equals("http") || word.equals("https")) {
+		if(word == endRes || word== endRes) {
 			System.out.println(res+" starts with https");
 		}
 		else {
